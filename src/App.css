@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.landing {
+  position: relative;
+  background: url('https://lancastergeneralhealth.org/-/media/images/locations/buildings/lancastergeneral_front_1.ashx?mw=620&mh=408') no-repeat center center/cover;
+  height: 100vh;
+}
