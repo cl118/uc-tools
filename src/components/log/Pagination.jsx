@@ -32,13 +32,15 @@ const Pagination = ({ totalCount, pageSize, currentPage, setCurrentPage }) => {
             <p className='text-sm text-gray-700'>
               Showing
               <span className='font-medium'>
+                {' '}
                 {pageSize * currentPage - (pageSize - 1)}{' '}
               </span>
               to
               <span className='font-medium'>
+                {' '}
                 {totalCount < pageSize * currentPage
                   ? totalCount
-                  : pageSize * currentPage}
+                  : pageSize * currentPage}{' '}
               </span>
               of
               <span className='font-medium'> {totalCount} </span>
