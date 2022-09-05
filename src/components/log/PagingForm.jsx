@@ -19,7 +19,7 @@ const PagingForm = () => {
     providerName,
     providerGroup,
     status,
-    notes
+    notes,
   } = newPost;
 
   const onChangeNewPostForm = (e) =>
@@ -39,7 +39,7 @@ const PagingForm = () => {
       providerName: '',
       providerGroup: '',
       status: '',
-      notes: ''
+      notes: '',
     });
   };
 
@@ -100,7 +100,7 @@ const PagingForm = () => {
             required
           />
         </div>
-        <div className='w-[150px]'>
+        <div className='w-[170px]'>
           <label
             htmlFor='providerGroup'
             className='block mb-2 text-sm font-medium text-gray-900'
@@ -160,7 +160,7 @@ const PagingForm = () => {
           />
         </div>
         <div>
-          <label className='block mb-2 text-sm invisible'>something</label>
+          <label className='invisible block mb-2 text-sm'>something</label>
           <button
             type='submit'
             className='text-gray-50 bg-gradient-to-tr from-[#011F5B] to-blue-700 hover:bg-gradient-to-bl active:scale-95 font-medium rounded-lg text-sm px-5 py-2.5 text-center transition ease-out duration-100'
