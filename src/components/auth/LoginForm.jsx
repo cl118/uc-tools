@@ -80,19 +80,19 @@ const LoginForm = () => {
               onChange={onChangeLoginForm}
             />
           </div>
-          <div className='flex items-center justify-between'>
+          <div className='flex items-center justify-center'>
             <button
-              className='font-semibold px-4 py-2 bg-gradient-to-tr from-[#011F5B] to-blue-700 hover:bg-gradient-to-bl text-gray-50 rounded-lg border-gray-400 cursor-pointer active:scale-95'
+              className='font-semibold px-8 py-2 bg-gradient-to-tr from-[#011F5B] to-blue-700 hover:bg-gradient-to-bl text-gray-50 rounded-lg border-gray-400 cursor-pointer active:scale-95'
               type='submit'
             >
               Sign In
             </button>
-            <a
+            {/* <a
               className='ml-2 inline-block align-baseline font-semibold text-sm text-[#011F5B] hover:text-blue-500'
               href='#'
             >
               Forgot Password?
-            </a>
+            </a> */}
           </div>
         </form>
       </div>
