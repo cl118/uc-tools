@@ -12,12 +12,12 @@ const WelcomeModal = ({ showModal, setShowModal }) => {
       <Modal.Body>
         <div className='p-6 space-y-6'>
           <p className='text-base leading-relaxed text-gray-500'>
-            Thank for visiting my Unit Clerk Tools web app! To demo the app
+            Thank you for visiting my Unit Clerk Tools web app! To demo the app
             without a registered account, you may continue with the demo
             credentials:
           </p>
           <p className='text-base leading-relaxed text-gray-500'>
-            username: username <br />
+            username: user <br />
             password: password
           </p>
           <p className='text-base leading-relaxed text-gray-500'>- Chris</p>
