@@ -1,7 +1,7 @@
 export const apiUrl =
   process.env.NODE_ENV !== 'production'
     ? 'http://localhost:5000/api'
-    : 'https://uc-tools-server.herokuapp.com/api';
+    : 'https://uc-tools-server.onrender.com/api';
 
 export const LOCAL_STORAGE_TOKEN_NAME = 'paging-log';
 
